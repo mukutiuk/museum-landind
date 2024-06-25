@@ -1,3 +1,30 @@
+@import "utils";
+@import "utils/vars";
+@import "block/container";
+@import "block/header";
+@import "block/page";
+@import "block/menu";
+@import "block/section";
+@import "block/event";
+@import "block/gallery";
+@import "block/subscription";
+@import "block/footer";
+
 body {
+  background: $c-gray;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+ul,
+h3 {
+  margin: 0;
+}
+
+p {
   margin: 0;
 }

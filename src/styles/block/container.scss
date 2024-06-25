@@ -1,0 +1,11 @@
+.container {
+  padding: 0 20px 128px;
+
+  @include on-tablet {
+    padding: 0 35px 36px;
+  }
+
+  @include on-desktop {
+    padding: 0 55px 35px;
+  }
+}
