@@ -1,6 +1,6 @@
 .menu {
   padding-top: 39px;
-  
+  overflow: auto;
 
   @include on-desktop {
     padding: 40px 100px 0 6px;
