@@ -9,26 +9,19 @@
     right: 0;
     left: 0;
     width: 100%;
-    background-color: #1a5a4c;
+    background-color: $color-green;
     transition: all 0.3s;
     z-index: 2;
-    overflow: auto;
+    overflow: hidden;
     height: 100%;
     transform: translateX(-100%);
 
+    @media (max-height: 533px) {
+      overflow: auto
+ }
+
     @include on-tablet {
       height: 300px;
-      position: fixed;
-      top: 0;
-      right: 0;
-      left: 0;
-      width: 100%;
-      overflow: auto;
-
-      background-color: $color-green;
-      transform: translateX(-100%);
-      transition: all 0.3s;
-      z-index: 2;
     }
 
     &:target {
