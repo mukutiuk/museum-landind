@@ -4,7 +4,8 @@
 
   @include on-desktop {
     padding: 40px 100px 0 6px;
-
+    width: 1170px;
+    margin: 0 auto;
   }
 
   &__nav {
@@ -117,7 +118,6 @@
 }
 
 .schedule {
-
   &__work {
     font-family: 'IBM Plex Sans', sans-serif;
     font-style: normal;

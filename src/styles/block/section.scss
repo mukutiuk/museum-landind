@@ -1,8 +1,9 @@
 .section {
   @include on-desktop {
-    // width: 1280px;
-    // margin: 0 auto;
+    width: 1280px;
+    margin: 0 auto;
   }
+
   &__menu {
     position: fixed;
     top: 0;
@@ -21,7 +22,7 @@
  }
 
     @include on-tablet {
-      height: 300px;
+      height: 223px;
     }
 
     &:target {
