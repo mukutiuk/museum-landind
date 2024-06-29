@@ -47,6 +47,11 @@
 
   &__close {
     margin-right: 33px;
+    transition: all 0.3s;
+
+    &:hover {
+      transform: scale(1.1);
+    }
 
     @include on-tablet {
       margin-right: 44px;
@@ -81,6 +86,12 @@
     line-height: 100%;
     display: block;
     width: 100px;
+    transition: all 0.3s;
+
+    &:hover {
+      transform: scale(1.01);
+    }
+
 
     @include on-desktop {
       width: 160px;

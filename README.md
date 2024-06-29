@@ -8,4 +8,47 @@ Form **placeholders**  provide clear guidance on data input, and form **validati
 
 In the **gallery** and **exhibitions** sections, images enlarge smoothly on hover, enhancing the visual experience for users. Additionally, a smooth feature is implemented for seamless navigation throughout the entire landing page.
 
-To contribute to this project, **fork** the repository and **clone** the forked version with a personalized name. Afterward, run '**npm install**' or '**npm i**' to install dependencies and '**npm start**' to launch the project
+
+Github flow
+
+To run the GPTGO project locally, follow these steps:
+
+1. Clone the repository from GitHub by running the following command in your terminal:
+
+git clone [repository_url]
+
+Copy code
+
+
+2. Navigate to the project directory:
+
+cd gptgo
+
+Copy code
+
+
+3. Install the necessary dependencies using npm or yarn:
+
+npm install
+
+Copy code
+
+or
+
+yarn install
+
+Copy code
+
+
+4. Start the development server by running:
+
+npm start
+
+Copy code
+
+or
+
+
+yarn start
+
+Copy code
