@@ -11,6 +11,6 @@ In the **gallery** and **exhibitions** sections, images enlarge smoothly on hove
 Github flow
 
 1. Clone the repository from GitHub by running the following command in your terminal: **git clone [repository_url]**
-2. Navigate to the project directory: **cd gptgo**
+2. Navigate to the project directory: **cd path/to/folder**
 3. Install the necessary dependencies using npm or yarn: **npm install** or **yarn install**
 4. Start the development server by running: **npm start** or **yarn start**.
