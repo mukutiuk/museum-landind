@@ -15,40 +15,24 @@ To run the GPTGO project locally, follow these steps:
 
 1. Clone the repository from GitHub by running the following command in your terminal:
 
-git clone [repository_url]
-
-Copy code
-
+  **git clone [repository_url]**
 
 2. Navigate to the project directory:
 
-cd gptgo
-
-Copy code
-
+  **cd gptgo**
 
 3. Install the necessary dependencies using npm or yarn:
 
-npm install
+  **npm install**
 
-Copy code
+  or
 
-or
-
-yarn install
-
-Copy code
-
+  **yarn install**
 
 4. Start the development server by running:
 
-npm start
+  **npm start**
 
-Copy code
+  or
 
-or
-
-
-yarn start
-
-Copy code
+  **yarn start**.
